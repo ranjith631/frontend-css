@@ -1,0 +1,88 @@
+.board{
+    /* border: 2px solid black; */
+    /* height: 100vh;
+    width: 100vw; */
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20rem;
+}
+.line{
+    /* border: 2px solid black; */
+    display: flex;
+}
+
+.chess{
+    border: 0.1px solid rgb(0, 0, 0);
+    height: 12vh;
+    width: 7.7vw;
+}
+.line-1>.chess:nth-child(odd){
+    background-color: wheat;
+}
+.line-1>.chess:nth-child(even){
+    background-color: chocolate;
+}
+
+
+.line-2>.chess:nth-child(even){
+    background-color: wheat;
+}
+.line-2>.chess:nth-child(odd){
+    background-color: chocolate;
+}
+
+
+.line-3>.chess:nth-child(odd){
+    background-color: wheat;
+}
+.line-3>.chess:nth-child(even){
+    background-color: chocolate;
+}
+
+
+.line-4>.chess:nth-child(even){
+    background-color: wheat;
+}
+.line-4>.chess:nth-child(odd){
+    background-color: chocolate;
+}
+
+
+.line-5>.chess:nth-child(odd){
+    background-color: wheat;
+}
+.line-5>.chess:nth-child(even){
+    background-color: chocolate;
+}
+
+
+.line-6>.chess:nth-child(even){
+    background-color: wheat;
+}
+.line-6>.chess:nth-child(odd){
+    background-color: chocolate;
+}
+
+
+
+.line-7>.chess:nth-child(odd){
+    background-color: wheat;
+}
+.line-7>.chess:nth-child(even){
+    background-color: chocolate;
+}
+
+
+
+.line-8>.chess:nth-child(even){
+    background-color: wheat;
+}
+.line-8>.chess:nth-child(odd){
+    background-color: chocolate;
+}
+img{
+   height: 100%;
+   width: 80%;
+   padding-left: 0.9rem; 
+}

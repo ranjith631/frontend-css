@@ -1,0 +1,93 @@
+.header{
+    width: 100%;
+    border: 2px solid rgb(0, 0, 0);
+    height: 60px;
+    background-color: black;
+    display:flex;
+    justify-content:space-around ;
+    position: fixed;
+    top: 0%;
+    z-index: 1;
+    
+}
+.child{
+color: white;
+
+
+}
+.container{
+    position: relative;
+}
+.container>img{
+    width: 100%;
+}
+.container>h1{
+    color: white;
+   
+position: absolute;
+bottom: 150px;
+left: 580px;
+   
+}
+.container>h2{
+    color: rgb(255, 255, 255);
+  
+position: absolute;
+bottom: 130px;
+left: 480px;
+}
+ .container-chat span h1{ 
+     letter-spacing: 15px; 
+ }
+.container-chat span p{
+    margin-left: 300px;
+    margin-right: 300px;
+    letter-spacing: 1px;
+} 
+
+.chat{
+    
+    /* border: 2px solid red; */
+    display:inline-block;
+    /* padding-left: 200px; */
+    margin-left: 200px;
+
+    height: 300px;
+    width: 200px;
+}
+.chat>img{
+    width: 100%;
+}
+.chat h2{
+    padding: 10px;
+    margin-left: 30px;
+}
+.end{
+    border: 2px solid rgb(255, 255, 255);
+    height: 500px;
+    width: 100%;
+    background-color: black;
+}
+.end h2,h3{
+    color: white;
+    
+
+}
+.place{
+    /* border: 2px solid yellow; */
+    background-color: white;
+    /* height: 300px; */
+    /* width: 250px; */
+    display: inline-block;
+    /* padding: 30px; */
+    margin-left:50px;
+    position: relative;
+}
+.place h2{
+    color:rgb(4, 3, 3);
+    /* position: absolute; */
+    /* top: 280px; */
+} 
+
+ 
+
